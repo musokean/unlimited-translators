@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Translator</title>
+</head>
+<body>
+    <h1>Translate HTML Content</h1>
+    <form action="/translate/" method="post">
+        <label for="html_content">HTML Content:</label><br>
+        <textarea id="html_content" name="html_content" rows="50" cols="100"></textarea><br><br>
+
+        <label for="source_lang">Source Language:</label>
+        <input type="text" id="source_lang" name="source_lang" value="en"><br><br>
+
+        <label for="target_lang">Target Language:</label>
+        <input type="text" id="target_lang" name="target_lang" value="es"><br><br>
+
+        <button type="submit">Translate</button>
+    </form>
+</body>
+</html>
